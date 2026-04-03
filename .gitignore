@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build output
+dist/
+build/
+*.o
+*.elf
+*.bin
+*.map
+sdkconfig
+sdkconfig.old
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# ESP-IDF
+firmware/managed_components/
+firmware/dependencies.lock
+
+# Test & coverage
+coverage/
+*.lcov
+
+# Logs
+*.log
+npm-debug.log*
